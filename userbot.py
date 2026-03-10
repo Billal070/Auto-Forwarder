@@ -4,9 +4,6 @@ import os
 from telethon import TelegramClient
 from telethon.sessions import StringSession
 from telethon.tl.types import InputPeerChannel
-from telegram.ext import ContextTypes
-from aiogram.types import Message as AiogramMessage
-
 import storage
 
 logger = logging.getLogger(__name__)
